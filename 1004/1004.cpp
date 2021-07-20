@@ -57,7 +57,7 @@ int main() {
 		Test_Count++;
 	}
 	for (int i=0; i<Test_No;i++)
-		cout << result[i] << "\n";
+		cout << result[i] << "\n ";
 	delete[] result;
 	return 0;
 }
