@@ -126,3 +126,11 @@ answer = 0
 board = [list(map(int, input().split())) for _ in range(n)]
 solution(board, 0)
 print(answer)
+
+
+board = [[0 for _ in range(3)] for _ in range(3)]
+type(board)
+
+
+
+print(board[0])
