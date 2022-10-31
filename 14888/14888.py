@@ -1,5 +1,5 @@
 import sys
-#sys.stdin = open("./14888/input.txt", "r")
+sys.stdin = open("./14888/input.txt", "r")
 
 def calculate(dep, answer, p, s, m, d):
     global maximum, minimum
